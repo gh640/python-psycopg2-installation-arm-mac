@@ -9,4 +9,3 @@ RUN apk update && \
   rm -rf /var/cache/apk/*
 
 RUN python3 -m pip install psycopg2
-
